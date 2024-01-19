@@ -1,0 +1,590 @@
+/* fuente */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+/* fuente */
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* reset */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b7babd;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* header */
+
+.enlace {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: end;
+}
+
+.navegador {
+  display: flex;
+  justify-content: end;
+  background-color: #009cc2;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  padding-left: 30px;
+}
+/* logo */
+
+/* mangueras */
+
+.caja-mangueras {
+  width: 100%;
+}
+
+/* mangueras */
+
+.titnuestro {
+  text-decoration: underline;
+  margin-top: 50px;
+  font-size: 5rem;
+}
+
+/* soluciones */
+
+.titservicios {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.titgenerales {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 10px;
+}
+.soluciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 10px;
+  text-align: justify;
+}
+
+.arregloimg {
+  height: 250px;
+}
+
+.arreglotarjeta {
+  background-color: #b7babd;
+}
+
+.rexroth {
+  width: 100%;
+}
+
+/* soluciones */
+
+/* clientes */
+.caja-cliente {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cliente {
+  width: 200px;
+  height: 200px;
+}
+
+/* clientes */
+
+/* video */
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #00738f;
+}
+.derechos {
+  margin-left: 10px;
+}
+
+.logo-footer {
+  height: 50px;
+  width: 50px;
+}
+
+/* footer */
+
+/* pagina servicios */
+
+.rubros {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.caja-titservicios {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.padre {
+  display: flex;
+
+  justify-content: center;
+}
+.cajita {
+  width: 1500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.servicios {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-servicios {
+  margin-bottom: 10px;
+
+  height: 100%;
+}
+
+.industrias {
+  justify-content: space-evenly;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px;
+  grid-template-areas:
+    "petroleo       metalurgica      mineria       alimenticia       farmaceutica       automotriz"
+    "img-petroleo   img-metalurgica  img-mineria   img-alimenticia   img-farmaceutica   img-automotriz";
+
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.tamano img {
+  width: 100%;
+  height: 100%;
+}
+
+.tamano {
+  height: 300px;
+}
+
+.petroleo {
+  grid-area: petroleo;
+}
+.img-petroleo {
+  grid-area: img-petroleo;
+}
+.minerira {
+  grid-area: mineria;
+}
+.img-mineria {
+  grid-area: img-mineria;
+}
+.metalurgica {
+  grid-area: metalurgica;
+}
+.img-metalurgica {
+  grid-area: img-metalurgica;
+}
+.alimenticia {
+  grid-area: alimenticia;
+}
+.img-alimenticia {
+  grid-area: img-alimenticia;
+}
+.farmaceutica {
+  grid-area: farmaceutica;
+}
+.img-farmaceutica {
+  grid-area: img-farmaceutica;
+}
+.automotriz {
+  grid-area: automotriz;
+}
+.img-automotriz {
+  grid-area: img-automotriz;
+}
+
+/* pagina servicios */
+
+/* hidraulica */
+
+.caja-hidraulica {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caja-hidraulica1 {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.caja-hidraulica2 {
+  height: 500px;
+  width: 800px;
+}
+
+.caja-hidraulica2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-template-rows: repeat(6); */
+  margin-top: 100px;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+  grid-template-areas:
+    "cilindro    img-cilindro    desc-cilindro"
+    "centrales   img-centrales   desc-centrales"
+    "valvulas    img-valvulas    desc-valvulas"
+    "equipos     img-equipos     desc-equipos"
+    "bloques     img-bloques     desc-bloques"
+    "elementos   img-elementos   desc-elementos";
+}
+
+.cilindro {
+  grid-area: cilindro;
+}
+.img-cilindro {
+  grid-area: img-cilindro;
+  width: 100%;
+  height: 100%;
+}
+.desc-cilindro {
+  grid-area: desc-cilindro;
+}
+.centrales {
+  grid-area: centrales;
+}
+.img-centrales {
+  grid-area: img-centrales;
+}
+.desc-centrales {
+  grid-area: desc-centrales;
+}
+.valvulas {
+  grid-area: valvulas;
+}
+.img-valvulas {
+  grid-area: img-valvulas;
+}
+.desc-valvulas {
+  grid-area: desc-valvulas;
+}
+.equipos {
+  grid-area: equipos;
+}
+.img-equipos {
+  grid-area: img-equipos;
+}
+.desc-equipos {
+  grid-area: desc-equipos;
+}
+.bloques {
+  grid-area: bloques;
+}
+.img-bloques {
+  grid-area: img-bloques;
+}
+.desc-bloques {
+  grid-area: desc-bloques;
+}
+.elementos {
+  grid-area: elementos;
+}
+.img-elementos {
+  grid-area: img-elementos;
+}
+.desc-elementos {
+  grid-area: desc-elementos;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+/* hidraulica */
+
+/* contacto */
+.soluciones-caja-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.soluciones-contacto {
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-contacto {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.caja-contacto h2 {
+  padding: 30px;
+}
+
+.soluciones-contacto h2 {
+  text-decoration: underline;
+}
+
+.soluciones-contacto p {
+  text-align: justify;
+}
+
+.caja-contacto-mapa {
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.caja-mapa {
+  display: flex;
+  height: 850px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.caja-mapa h3 {
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.caja-mapa p {
+  margin-top: 100px;
+}
+
+.caja-mapa span {
+  color: yellow;
+}
+
+.estilo-formulario {
+  width: 600px;
+}
+
+.estilo-formulario input,
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.btn-contacto {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.btn-contacto button {
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+/* contacto */
+
+/* responsive */
+
+@media (min-width: 375px) and (max-width: 667px) {
+  html {
+    min-width: 375px;
+    max-width: 667px;
+  }
+
+  .logo {
+    margin-left: 5px;
+  }
+
+  .fondo {
+    background-color: black;
+  }
+
+  .soluciones {
+    text-align: center;
+  }
+
+  .titgenerales {
+    text-align: center;
+  }
+
+  .titnuestro {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .display-media {
+    display: none;
+  }
+
+  .caja-cliente {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .logo-footer {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+
+  .caja-contacto {
+    width: 375px;
+  }
+
+  .caja-contacto-mapa {
+    width: 375px;
+  }
+
+  .estilo-formulario,
+  input,
+  textarea {
+    width: 375px;
+
+    margin-bottom: 5px;
+  }
+
+  .caja-mapa {
+    display: none;
+  }
+
+  .soluciones-contacto p {
+    display: none;
+  }
+  .soluciones-contacto h2 {
+    display: none;
+  }
+
+  .caja-hidraulica {
+    display: none;
+  }
+
+  .desc-cilindro {
+    display: none;
+  }
+
+  .desc-centrales {
+    display: none;
+  }
+
+  .desc-valvulas {
+    display: none;
+  }
+
+  .desc-equipos {
+    display: none;
+  }
+
+  .desc-bloques {
+    display: none;
+  }
+
+  .desc-elementos {
+    display: none;
+  }
+
+  .img-grid {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 180px;
+  }
+
+  .grid1 {
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .caja-mangueras {
+    display: none;
+  }
+
+  .tit-res {
+    text-decoration: underline;
+    padding: 15px;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    display: none;
+  }
+
+  .serv-resp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicios {
+    display: flex;
+    margin-top: 30px;
+    width: 350px;
+  }
+
+  .cajita {
+    width: 100%;
+  }
+}
+
+/* responsive */
