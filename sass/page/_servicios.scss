@@ -1,0 +1,76 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px;
+  grid-template-areas:
+    "petroleo       metalurgica      mineria       alimenticia       farmaceutica       automotriz"
+    "img-petroleo   img-metalurgica  img-mineria   img-alimenticia   img-farmaceutica   img-automotriz";
+
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+  justify-items: center;
+
+  .tamano-serv {
+    width: 250px;
+    height: 250px;
+  }
+  .petroleo {
+    grid-area: petroleo;
+  }
+  .img-petroleo {
+    grid-area: img-petroleo;
+  }
+  .minerira {
+    grid-area: mineria;
+  }
+  .img-mineria {
+    grid-area: img-mineria;
+  }
+  .metalurgica {
+    grid-area: metalurgica;
+  }
+  .img-metalurgica {
+    grid-area: img-metalurgica;
+  }
+  .alimenticia {
+    grid-area: alimenticia;
+  }
+  .img-alimenticia {
+    grid-area: img-alimenticia;
+  }
+  .farmaceutica {
+    grid-area: farmaceutica;
+  }
+  .img-farmaceutica {
+    grid-area: img-farmaceutica;
+  }
+  .automotriz {
+    grid-area: automotriz;
+  }
+  .img-automotriz {
+    grid-area: img-automotriz;
+  }
+  .rubros {
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+}
+
+.padre {
+  display: flex;
+
+  justify-content: center;
+  .cajita {
+    width: 1500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+.caja-titservicios {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

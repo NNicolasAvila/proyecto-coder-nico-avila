@@ -1,0 +1,98 @@
+.caja-hidraulica {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  .caja-hidraulica1 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .caja-hidraulica2 {
+    height: 500px;
+    width: 800px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-template-rows: repeat(6); */
+  margin-top: 100px;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+  grid-template-areas:
+    "cilindro    img-cilindro    desc-cilindro"
+    "centrales   img-centrales   desc-centrales"
+    "valvulas    img-valvulas    desc-valvulas"
+    "equipos     img-equipos     desc-equipos"
+    "bloques     img-bloques     desc-bloques"
+    "elementos   img-elementos   desc-elementos";
+
+  justify-items: center;
+
+  .cilindro {
+    grid-area: cilindro;
+  }
+  .img-cilindro {
+    grid-area: img-cilindro;
+
+    height: 100%;
+  }
+  .desc-cilindro {
+    grid-area: desc-cilindro;
+  }
+  .centrales {
+    grid-area: centrales;
+  }
+  .img-centrales {
+    grid-area: img-centrales;
+  }
+  .desc-centrales {
+    grid-area: desc-centrales;
+  }
+  .valvulas {
+    grid-area: valvulas;
+  }
+  .img-valvulas {
+    grid-area: img-valvulas;
+  }
+  .desc-valvulas {
+    grid-area: desc-valvulas;
+  }
+  .equipos {
+    grid-area: equipos;
+  }
+  .img-equipos {
+    grid-area: img-equipos;
+  }
+  .desc-equipos {
+    grid-area: desc-equipos;
+  }
+  .bloques {
+    grid-area: bloques;
+  }
+  .img-bloques {
+    grid-area: img-bloques;
+  }
+  .desc-bloques {
+    grid-area: desc-bloques;
+  }
+  .elementos {
+    grid-area: elementos;
+  }
+  .img-elementos {
+    grid-area: img-elementos;
+  }
+  .desc-elementos {
+    grid-area: desc-elementos;
+  }
+}

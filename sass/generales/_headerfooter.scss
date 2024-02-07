@@ -1,0 +1,39 @@
+/*header*/
+header {
+  .navegador {
+    display: flex;
+    justify-content: end;
+    background-color: $colorheader;
+  }
+
+  .enlace {
+    text-decoration: none;
+
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: end;
+  }
+}
+/*header*/
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: $colorfooter;
+
+  .logo-footer {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  .derechos {
+    margin-left: 10px;
+  }
+}
+
+/*footer*/

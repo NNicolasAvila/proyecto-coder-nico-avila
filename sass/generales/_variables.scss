@@ -1,0 +1,80 @@
+$font: "Roboto", sans-serif;
+$colorfooter: #00738f;
+$colorheader: #009cc2;
+
+//soluciones//
+
+/* soluciones */
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.tamano img {
+  width: 100%;
+  height: 100%;
+}
+
+.tamano {
+  height: 350px;
+  width: 450px;
+}
+
+.titservicios {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.titgenerales {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 10px;
+}
+.soluciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 10px;
+  text-align: justify;
+}
+
+.arregloimg {
+  height: 250px;
+}
+
+.arreglotarjeta {
+  background-color: #b7babd;
+}
+
+.rexroth {
+  width: 100%;
+}
+
+/* soluciones */
+
+/* video */
+.video {
+  display: flex;
+  justify-content: center;
+}
+/* video */
+
+/* servicios */
+.servicios {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.arreglo {
+  margin-top: 40px;
+}
+/* servicios */
+
+/* hidraulica */
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+/* hidraulica */

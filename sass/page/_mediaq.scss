@@ -1,0 +1,148 @@
+/*mediaqueris*/
+
+@media (min-width: 375px) and (max-width: 667px) {
+  html {
+    min-width: 375px;
+    max-width: 667px;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+
+  .fondo {
+    background-color: black;
+  }
+  .soluciones {
+    text-align: center;
+  }
+
+  .titgenerales {
+    text-align: center;
+  }
+
+  .titnuestro {
+    text-align: center;
+    font-weight: 400;
+  }
+  .display-media {
+    display: none;
+  }
+
+  .caja-cliente {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video {
+    display: none;
+  }
+  .logo-footer {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+
+  .caja-hidraulica {
+    display: none;
+  }
+
+  .desc-cilindro {
+    display: none;
+  }
+
+  .desc-centrales {
+    display: none;
+  }
+
+  .desc-valvulas {
+    display: none;
+  }
+
+  .desc-equipos {
+    display: none;
+  }
+
+  .desc-bloques {
+    display: none;
+  }
+
+  .desc-elementos {
+    display: none;
+  }
+
+  .img-grid {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 180px;
+  }
+
+  .grid1 {
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .padre .cajita {
+    width: auto;
+  }
+  .caja-mangueras {
+    display: none;
+  }
+
+  .tit-res {
+    text-decoration: underline;
+    padding: 15px;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    display: none;
+  }
+
+  .serv-resp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .padre {
+      width: auto;
+      .cajita {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .servicios {
+    display: flex;
+    margin-top: 30px;
+    width: 350px;
+  }
+
+  .cajita {
+    width: 100%;
+  }
+
+  /*contacto*/
+
+  .soluciones-caja-contacto {
+    .soluciones-contacto {
+      display: none;
+    }
+    .caja-contacto-mapa {
+      width: auto;
+      .caja-contacto {
+        .estilo-formulario,
+        input,
+        textarea {
+          width: 375px;
+          margin-bottom: 5px;
+        }
+      }
+      .caja-mapa {
+        display: none;
+      }
+    }
+  }
+}
