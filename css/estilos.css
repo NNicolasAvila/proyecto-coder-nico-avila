@@ -406,6 +406,12 @@ header .enlace {
     display: flex;
     flex-direction: column;
   }
+  .caja-hidraulica .caja-hidraulica1 {
+    width: auto;
+  }
+  .caja-hidraulica .caja-hidraulica2 {
+    width: auto;
+  }
   .grid1 {
     display: flex;
     flex-direction: column;
