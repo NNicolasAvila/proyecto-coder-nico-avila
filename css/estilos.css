@@ -391,6 +391,54 @@ header .enlace {
 }
 
 /*mediaqueris*/
+@media (min-width: 668px) and (max-width: 1550px) {
+  html {
+    min-width: 668px;
+    max-width: 1550px;
+  }
+  .caja-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* pagina hidraulica*/
+  .caja-hidraulica {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+  }
+  /*pagina servicios*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px;
+    grid-template-areas: "petroleo       metalurgica      mineria" "img-petroleo   img-metalurgica  img-mineria" "alimenticia       farmaceutica       automotriz" "img-alimenticia   img-farmaceutica   img-automotriz";
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 20px;
+    justify-items: center;
+  }
+  /*pagina contacto*/
+  .soluciones-caja-contacto .soluciones-contacto {
+    width: auto;
+  }
+  .soluciones-caja-contacto .caja-contacto-mapa {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .soluciones-caja-contacto .caja-contacto-mapa .caja-mapa h3 {
+    margin-bottom: 0px;
+  }
+  .soluciones-caja-contacto .caja-contacto-mapa .caja-mapa p {
+    margin-top: 0px;
+  }
+}
 @media (min-width: 375px) and (max-width: 667px) {
   html {
     min-width: 375px;
