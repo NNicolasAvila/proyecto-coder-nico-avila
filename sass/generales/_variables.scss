@@ -3,6 +3,11 @@ $colorfooter: #00738f;
 $colorheader: #009cc2;
 
 //soluciones//
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* soluciones */
 .centrar {

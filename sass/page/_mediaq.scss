@@ -6,9 +6,7 @@
   }
 
   .caja-cliente {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex;
   }
   /* pagina hidraulica*/
 
